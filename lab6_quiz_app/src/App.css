@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2980b9;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.question-text {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.option-button {
+  margin: 5px 10px 5px 0;
+  padding: 8px 12px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+
+.option-button:hover {
+  background-color: #e0e0e0;
+}
+
+.option-button.selected {
+  background-color: #d6eaff;
+  border-color: #3498db;
+}
+
+.option-button.correct {
+  background-color: #2ecc71;
+  color: white;
+  border-color: #27ae60;
+}
+
+.option-button.incorrect {
+  background-color: #e74c3c;
+  color: white;
+  border-color: #c0392b;
+}
+
+.control-buttons {
+  margin-top: 20px;
+}
+
+.control-buttons button {
+  margin-right: 10px;
+}
